@@ -1,0 +1,260 @@
+/* BASE STYLES */
+html {}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    color: #191919;
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed;
+  bottom: 40px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none;
+  outline: none;
+  background-color: #a31552;
+  color: white;
+  cursor: pointer; /* mouse pointer on hover */
+  padding: 10px;
+  font-size: 16px;
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+/* LAYOUT / BACKGROUNDS */
+
+.wrapper {}
+
+header {}
+
+.trim {
+    background-color: #dbcd11;
+    height: 30px;
+    width: 100%;
+}
+
+.site-hero {
+    height: 300px;
+    width: 100%;
+    background: url('../img/hero.png');
+    background-size: cover;
+}
+
+#menu {
+    background:
+        url('../img/pear.png') 450px 50px no-repeat,
+        url('../img/cherries.png') 50px 550px no-repeat,
+        url('../img/beetroot.png') 800px 450px no-repeat;
+    background-color: #fbfae9;
+    height: 1000px;
+}
+
+.menu-title {
+    height: 100px;
+    width: 100%;
+    padding-top: 30px;
+}
+
+.menu-left {
+    height: 900px;
+    width: 50%;
+    float: left;
+}
+
+.menu-right {
+    height: 900px;
+    width: 50%;
+    float: left;
+}
+
+#gallery {
+    width: 100%;
+    background: url('../img/gallery.png');
+    background-size: cover;
+    height: 270px;
+}
+
+#about {
+    background: repeating-linear-gradient(
+      -70deg, #f1f1f1, #f1f1f1 70px, #ffffff 70px, #ffffff 95px);
+    height: 870px;
+}
+
+#contact {
+    height: 400px;
+    background:
+        url('../img/letter.png') 590px 140px no-repeat;
+    background-color: #fbfae9;
+}
+
+.contact-title {
+    height: 100px;
+    width: 100%;
+    padding-top: 30px;
+}
+
+.contact-left {
+    height: 300px;
+    width: 50%;
+    float: left;
+}
+
+.contact-right {
+    height: 300px;
+    width: 50%;
+    float: left;
+}
+
+/* TYPESTYLES */
+
+h1 /* Logo Text */ {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.6em;
+    font-weight: 800;
+    color: #191919;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    margin: 5px 0 0 35px;
+}
+
+h2 /* Page Section Headers */ {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.3em;
+    font-weight: 800;
+    color: #191919;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    text-align: center;
+}
+
+h3 /* Menu Section Headers */ {
+    font-family: 'Bellota', serif;
+    font-size: 1.7em;
+    color: #191919;
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+
+h4 {
+    text-transform: uppercase;
+    color: #a31552;
+    font-size: 1.35em;
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+
+h5 /* Menu Section Headers */ {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.75em;
+    color: #a31552;
+    text-align: center;
+    font-style: italic;
+    font-weight: lighter;
+    margin: 50px 0 5px 0;
+}
+
+p {
+    text-align: center;
+    font-size: 1.25em;
+    line-height: 1.5;
+    margin: 0;
+}
+
+
+/* SITE HERO & NAVIGATION */
+
+.logo-container {
+    padding: 70px 50px 10px 50px;
+    margin: auto;
+    width: 450px;
+    border-bottom: 3px solid #e3e3e3;
+}
+
+.logo-container img {
+    width: 200px;
+    padding-left: 140px;
+}
+
+h1 span {
+    font-weight: 400;
+}
+
+.nav-container {
+    margin: auto;
+    width: 450px;
+  }
+
+nav {
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 0 0 50px;
+    overflow: hidden;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #a31552;
+    padding: 0 30px;
+}
+
+nav ul li a:hover {
+    color: #dbcd11;
+}
+
+/* MENU */
+
+.inline {
+    margin-top: 50px;
+}
+
+
+.callout-prices {
+    text-transform: uppercase;
+    color: #a31552;
+    font-size: 1.25em;
+    text-align: center;
+    font-weight: bold;
+    margin: 5px 0 0 0;
+}
+
+/* ABOUT */
+
+.about-header {
+    padding: 50px 50px 10px 50px;
+    margin: auto;
+    width: 800px;
+}
+
+.about-header img {
+    width: 100px;
+    padding-left: 355px;
+}
+
+#about h5 {
+    font-size: 1.8em;
+    margin: 25px 0 5px 0;
+}
+
+/* CONTACT */
+
+#contact h3 {
+    color: #a31552;
+    font-size: 2em;
+    margin: 50px 0 5px 0;
+}

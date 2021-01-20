@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Commonwealth</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bellota:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+
+<body>
+
+<div class='wrapper'>
+<button onclick="topFunction()" id="myBtn" title="Go to top">TOP</button>
+
+<header>
+
+    <div class='trim'>
+    </div> <!-- trim -->
+
+    <div class='site-hero'>
+
+        <div class='logo-container'>
+            <img src="img/logo-key.png" alt="Logo Key"/>
+            <h1>Common<span>wealth</span></h1>
+        </div> <!-- logo-container -->
+
+        <div class='nav-container'>
+            <nav>
+                <ul>
+                  <li><a href="#menu">Menu</a></li>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </div>  <!-- site-hero -->
+
+</header>
+
+<main>
+
+  <div id='menu'>
+
+      <div class='menu-title'>
+          <h2>Menu</h2>
+      </div> <!-- menu-title -->
+
+      <div class='menu-left'>
+          <h3>From the Bakery</h3>
+
+          <h4>Cinnamon Roll Cake | 6</h4>
+          <p>maple pecan icing</p>
+
+          <h4>Homemade Pop Tart | 7</h4>
+          <p>fig, nutella or blackberry</p>
+
+          <h4>Chive & poppy Biscuit | 6</h4>
+          <p>warm local honey</p>
+
+          <div class="inline"><h3>Salads & Sandwiches</h3></div>
+
+          <h4>Strawberry Walnut Salad | 9</h4>
+          <p>butter lettuce, champagne vinaigrette</p>
+
+          <h4>Lily's Chicken Salad | 11</h4>
+          <p>over lettuce or on a croissant</p>
+
+          <h4>Pear grilled Cheese | 10</h4>
+          <p>gruyére, fig butter & royal pears</p>
+
+          <h5>charcuterie board</h5>
+          <p>seasonal local meats and cheeses<br>spreads and dried fruit</p>
+          <div class='callout-prices'>16</div>
+      </div> <!-- menu-left -->
+
+      <div class='menu-right'>
+          <h3>Hot Beverages</h3>
+
+          <h4>Signature Latte | 5</h4>
+          <p>see board for current selection</p>
+
+          <h4>Morning Glory Tea | 4</h4>
+          <p>jasmine, earl grey, or masala chai</p>
+
+          <h4>Café Cubano | 4</h4>
+          <p>espresso, dark brown sugar</p>
+
+          <h5>pressed juice bar</h5>
+          <p>build your own: coconut, celery<br>apple, kale, lemon, strawberry, carrot</p>
+          <div class='callout-prices'>6</div>
+
+          <div class="inline"><h3>Cold Beverages</h3></div>
+
+          <h4>house cold brew | 5</h4>
+          <p>almond, oat or low-fat milk</p>
+
+          <h4>Murray's Ginger Ale | 5</h4>
+          <p>original, diet or cranberry</p>
+
+          <h4>Lemongrass Iced Tea | 4</h4>
+          <p>made fresh daily</p>
+
+      </div> <!-- menu-right -->
+
+  </div> <!-- menu -->
+
+  <div id='about'>
+
+      <div id='gallery'>
+      </div> <!-- gallery -->
+
+      <div class='about-header'>
+          <img src="img/lightbulb.png" alt="lightbulb"/>
+          <h2>ABOUT</h2>
+          <h3><span>Nourish. Connect. Recharge.</span></h3>
+          <p>Opened in 2019, we are a community gathering place. All are welcome for breakfast, lunch or coffee. We are a remote friendly workspace with highspeed internet for customers and plenty of ways to connct!</p>
+          <h5>speed wifi ~ monthly lunch & learns ~ remote friendly</h5>
+      </div> <!-- about-header -->
+
+  </div> <!-- about -->
+
+  <div id='contact'>
+
+      <div class='contact-title'>
+          <h2>Contact Us</h2>
+      </div> <!-- contact-title -->
+
+      <div class='contact-left'>
+          <h3>Commonwealth</h3>
+          <p>290 Condesa Avenue<br>Atlanta, Georgia 30309<br>404.555.9829</p>
+      </div> <!-- contact-left -->
+
+      <div class='contact-right'>
+          <h3>Hours</h3>
+          <p>Monday-Friday 7-5<br>Saturday 7-2<br>Closed Sunday</p>
+      </div> <!-- contact-left -->
+
+  </div> <!-- contact -->
+
+  <div class='trim'>
+  </div> <!-- trim -->
+
+
+
+</main>
+
+</div> <!--wrapper-->
+
+    <script>
+    //call button:
+    mybutton = document.getElementById("myBtn");
+
+    //on scroll function:
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+    if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+    mybutton.style.display = "block";
+    } else {
+    mybutton.style.display = "none";
+    }
+    }
+
+    //click function:
+    function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+    </script>
+
+</body>
+
+</html>
